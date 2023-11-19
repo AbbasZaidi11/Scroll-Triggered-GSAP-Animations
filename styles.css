@@ -1,0 +1,409 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.root {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+
+    /* Set the height of the flex container to 100% of the viewport height */
+}
+
+.scroll-1-right {
+    z-index: 1;
+
+    width: 60%;
+    background-color: #22313f;
+    height: 100%;
+    position: relative;
+    /* Add this */
+}
+
+.scroll-1-left {
+    width: 40%;
+    background-color: #003366;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+
+    /* Add this */
+}
+
+
+.dominos-bread {
+    position: relative;
+    left: 550px;
+    bottom: 250px;
+    left: 85%;
+
+}
+
+.domi-img-1 {
+    height: 400px;
+    position: relative;
+    top: 360px;
+    right: 15%;
+    padding: 0;
+}
+
+.domi-img-2 {
+    position: relative;
+    height: 400px;
+    top: 50px;
+    left: 10%;
+}
+
+.dominos-breads {
+    position: relative;
+    left: 70%;
+    top: 10%;
+    height: 200px;
+}
+
+.pizza-box {
+    position: relative;
+    bottom: 400px;
+    right: 30%;
+
+}
+
+.scroll-2-left {
+    background-color: #002244;
+    position: relative;
+    width: 40%;
+    z-index: 2;
+}
+
+.scroll-2-right {
+    background-color: #002D62;
+    position: relative;
+    width: 60%;
+}
+
+.health-app-ui-1 {
+    position: relative;
+    height: 550px;
+    top: 35%;
+    left: 15%;
+
+}
+
+.health-app-ui-2 {
+    position: relative;
+    height: 500px;
+    left: 32%;
+    bottom: 15%;
+}
+
+.scroll-3-left {
+    background-color: #6F00FF;
+    position: relative;
+    width: 40%;
+    z-index: 2;
+
+
+}
+
+.scroll-3-right {
+    background-color: #2E2787;
+    position: relative;
+    width: 60%;
+}
+
+.blockchain-app-ui-1 {
+    position: relative;
+    height: 500px;
+    top: 40%;
+    left: 10%;
+}
+
+.blockchain-app-ui-2 {
+    position: relative;
+    height: 500px;
+    left: 30%;
+}
+
+.scroll-4-left {
+    position: relative;
+    width: 40%;
+    background-color: #6A5ACD;
+    z-index: 2;
+
+}
+
+.scroll-4-right {
+    position: relative;
+    background-color: #F5F5F5;
+    width: 60%;
+
+}
+
+.ott-app-ui-1 {
+    position: relative;
+    height: 500px;
+    top: 11%;
+    left: 15%;
+
+}
+
+.ott-app-ui-2 {
+    position: relative;
+    height: 500px;
+    top: 11%;
+    left: 15%;
+
+}
+
+.scroll-5-left {
+    position: relative;
+    width: 40%;
+    background-color: #3457D5;
+    z-index: 2;
+
+}
+
+.scroll-5-right {
+    position: relative;
+    background-color: #00CED1;
+    width: 60%;
+}
+
+.karavan-top-1 {
+    position: relative;
+    height: 450px;
+    bottom: 17%;
+    left: 15%;
+}
+
+.karavan-top-2 {
+    position: relative;
+    height: 450px;
+    left: 15%;
+    bottom: 5%;
+
+}
+
+.karavan-top-3 {
+    position: relative;
+    height: 450px;
+    left: 15%;
+    top: 10%;
+
+}
+
+.karavan-bottom-1 {
+    position: relative;
+    height: 450px;
+    left: 17%;
+    bottom: 10%;
+}
+
+.karavan-bottom-2 {
+    position: relative;
+    height: 450px;
+    left: 15%;
+
+}
+
+.scroll-6-left {
+    position: relative;
+    width: 40%;
+    background-color: #0039a6;
+    z-index: 2;
+
+
+}
+
+.scroll-6-right {
+    position: relative;
+    width: 60%;
+    background-image: url('./imgs/interior.jpg');
+}
+
+.home-decor-app-ui {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-7-left {
+    position: relative;
+    background-color: #009E60;
+    z-index: 2;
+
+    width: 40%;
+}
+
+.scroll-7-right {
+    position: relative;
+    background-color: #77DD77;
+    width: 60%;
+    z-index: 1;
+
+}
+
+.shopping-app-ui-1 {
+    position: relative;
+    height: 600px;
+    left: 25%;
+    top: 28%;
+}
+
+.shopping-app-ui-2 {
+    position: relative;
+    height: 600px;
+    left: 15%;
+    top: 18%;
+}
+
+.scroll-1-text {
+    color: white;
+    position: relative;
+    top: 55%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+
+}
+
+.company-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: xxx-large;
+}
+
+.company-description {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.case-study-btn {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    /* Align items with space between them */
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.skip-btn {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.scroll-2-text {
+    color: white;
+    position: relative;
+    top: 55%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.scroll-3-text {
+    color: white;
+    position: relative;
+    top: 55%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.scroll-4-text {
+    color: white;
+    position: relative;
+    top: 43%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.award {
+    margin-left: 10%;
+    position: relative;
+    top: 30%;
+
+}
+
+.scroll-5-text {
+    color: white;
+    position: relative;
+    top: 55%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.scroll-6-text {
+    color: white;
+    position: relative;
+    top: 55%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.scroll-7-text {
+    color: white;
+    position: relative;
+    top: 43%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.scroller {
+    position: absolute;
+    z-index: 3;
+    left: 60%;
+    bottom: 40%;
+    /* Adjust this according to your layout */
+}
+
+.scroller {
+    position: absolute;
+    border-top-left-radius: 20px;
+    /* Added */
+    border-bottom-left-radius: 20px;
+    /* Added */
+
+    /* other styles for positioning */
+}
+
+.scroller svg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* Make the SVG circular */
+
+}
+
+@media only screen and (max-width: 767px) {
+    .root {
+        flex-direction: column;
+        /* Stack sections vertically on smaller screens */
+    }
+
+    .scroll-1-right,
+    .scroll-1-left {
+        width: 100%;
+        /* Take up full width on smaller screens */
+    }
+
+    .scroll-1-text,
+    .scroll-2-text,
+    .scroll-3-text,
+    .scroll-4-text,
+    .scroll-5-text,
+    .scroll-6-text,
+    .scroll-7-text {
+        text-align: center;
+        /* Center text on smaller screens */
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+
+    /* Adjust other styles as needed */
+}
+
+/* Add more media queries for larger screens if needed */
